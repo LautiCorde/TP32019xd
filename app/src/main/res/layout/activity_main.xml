@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+    android:layout_gravity="center_horizontal"
+    android:onClick="CategoriaPresionado"
+    android:id="@+id/Boton1"
+        android:text="Buscar Por Categoría"
+    />
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="NombrePresionado"
+        android:text="Buscar Por Nombre"
+        android:id="@+id/Boton2"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="GeoPresionado"
+        android:text="Buscar Por Geolocalización"
+        android:id="@+id/Boton3"
+        />
+
+
+
+
+</LinearLayout>
