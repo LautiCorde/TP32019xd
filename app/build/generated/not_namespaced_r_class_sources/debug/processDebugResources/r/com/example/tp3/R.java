@@ -3483,7 +3483,7 @@ public final class R {
     public static final int listMode=0x7f070052;
     public static final int list_item=0x7f070053;
     public static final int message=0x7f070054;
-    public static final int miListaDeObjetos=0x7f070055;
+    public static final int miListadeNombres=0x7f070055;
     public static final int middle=0x7f070056;
     public static final int multiply=0x7f070057;
     public static final int never=0x7f070058;

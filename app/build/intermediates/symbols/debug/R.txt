@@ -728,7 +728,7 @@ int id line3 0x7f070051
 int id listMode 0x7f070052
 int id list_item 0x7f070053
 int id message 0x7f070054
-int id miListaDeObjetos 0x7f070055
+int id miListadeNombres 0x7f070055
 int id middle 0x7f070056
 int id multiply 0x7f070057
 int id never 0x7f070058

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\devandroid.ALMAGRO.000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\9efe5672ca6e712be232263209d6f961\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\devandroid.ALMAGRO.000\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\8a1e4fcb187f72b253becbfc3ee6136b\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\devandroid.ALMAGRO.000\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\bff4142746ed4da284dd98f73d8c286d\AndroidManifest.xml:17:1-22:12
@@ -31,29 +31,29 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\devandroid.ALMAGRO.
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\devandroid.ALMAGRO.000\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\42a6a1cf0bc8e967d06f3865fa8a7286\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\devandroid.ALMAGRO.000\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\516cfc2c428a0c9f034082f4d7132299\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\devandroid.ALMAGRO.000\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2d81e05d651f5815a716ce60e150a8ef\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:3:5-30
-		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:2:1-28:12
-		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:2:1-28:12
-		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:7:5-26:19
+ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:7:5-26:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\devandroid.ALMAGRO.000\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\8a1e4fcb187f72b253becbfc3ee6136b\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\devandroid.ALMAGRO.000\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\8a1e4fcb187f72b253becbfc3ee6136b\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\devandroid.ALMAGRO.000\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\24448efe33654593bea273afb220fbbc\AndroidManifest.xml:22:5-94
@@ -63,53 +63,53 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\devandroid
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\devandroid.ALMAGRO.000\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\24448efe33654593bea273afb220fbbc\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:13:9-40
 	android:usesCleartextTraffic
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:14:9-44
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:14:9-44
 activity#com.example.tp3.buscar
-ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:15:9-53
+ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:15:9-53
 	android:name
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:15:19-41
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:15:19-41
 activity#com.example.tp3.Geo
-ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:16:9-41
+ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:16:9-41
 	android:name
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:16:19-38
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:16:19-38
 activity#com.example.tp3.Nombre
-ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:17:9-44
+ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:17:9-44
 	android:name
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:17:19-41
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:17:19-41
 activity#com.example.tp3.Categoria
-ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:18:9-47
+ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:18:9-47
 	android:name
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:18:19-44
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:18:19-44
 activity#com.example.tp3.MainActivity
-ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:19:9-25:20
+ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:19:19-47
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:19:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml:23:27-74
 uses-sdk
-INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\devandroid.ALMAGRO.000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\9efe5672ca6e712be232263209d6f961\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\devandroid.ALMAGRO.000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\9efe5672ca6e712be232263209d6f961\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\devandroid.ALMAGRO.000\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\8a1e4fcb187f72b253becbfc3ee6136b\AndroidManifest.xml:5:5-7:41
@@ -164,13 +164,13 @@ MERGED from [android.arch.core:runtime:1.1.1] C:\Users\devandroid.ALMAGRO.000\.g
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\devandroid.ALMAGRO.000\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\516cfc2c428a0c9f034082f4d7132299\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\devandroid.ALMAGRO.000\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2d81e05d651f5815a716ce60e150a8ef\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\devandroid.ALMAGRO.000\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2d81e05d651f5815a716ce60e150a8ef\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\devandroid.ALMAGRO.000\Desktop\TP32019xd\app\src\main\AndroidManifest.xml

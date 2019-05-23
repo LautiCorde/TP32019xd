@@ -15,9 +15,10 @@ import java.net.URL;
 import java.util.ArrayList;
 
 public class buscar extends AppCompatActivity {
-    ArrayList listaObjetos;
-    ListView miListaDeObjetos;
+    ArrayList listanombre;
+    ListView miListadeNombres;
     ArrayAdapter miAdaptador;
+    String cat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,8 @@ public class buscar extends AppCompatActivity {
         setContentView(R.layout.activity_buscar);
         Bundle datosRecibidos = this.getIntent().getExtras();
         Log.d("A", datosRecibidos.getString("PosicionSeleccionada"));
+        cat = datosRecibidos.getString("PosicionSeleccionada");
+        new tareaAsincronica().execute();
     }
 
     public void procesarJSONleido(InputStreamReader streamLeido) {
@@ -33,9 +36,9 @@ public class buscar extends AppCompatActivity {
             JSONleido.beginObject();
             while (JSONleido.hasNext()) {
                 String nombreElementoActual = JSONleido.nextName();
-                if (nombreElementoActual.equals("cantidad_de_categorias")) {
-                    int cantidadCategoria = JSONleido.nextInt();
-                    Log.d("LecturaJSON", "La cant de categorias es " + cantidadCategoria);
+                if (nombreElementoActual.equals("instancias")) {
+                    int categoriaseleccionada = JSONleido.nextInt();
+                    Log.d("LecturaJSON", "La categorias es " + categoriaseleccionada);
 
                 } else {
                     JSONleido.beginArray();
@@ -46,7 +49,7 @@ public class buscar extends AppCompatActivity {
                             if (nombreElementoActual.equals("nombre")) {
                                 String valorElementoActual = JSONleido.nextString();
                                 Log.d("LecturaJSON", "valor" + valorElementoActual);
-                                listaObjetos.add(valorElementoActual);
+                                listanombre.add(valorElementoActual);
                             } else {
                                 JSONleido.skipValue();
                             }
@@ -66,7 +69,8 @@ public class buscar extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... voids) {
             try {
-                URL miRuta = new URL("http://epok.buenosaires.gob.ar/buscar /?texto=");
+                URL miRuta = new URL("http://epok.buenosaires.gob.ar/buscar/?texto="+cat);
+                Log.d("Julian","El nombre de la cat es " + cat);
                 HttpURLConnection miConexion = (HttpURLConnection) miRuta.openConnection();
                 Log.d("AccesoApi", "Me Conecto");
                 if (miConexion.getResponseCode() == 200) {
@@ -95,7 +99,7 @@ public class buscar extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
-            miListaDeObjetos.setAdapter(miAdaptador);
+            miListadeNombres.setAdapter(miAdaptador);
         }
     }
 }
