@@ -4,13 +4,47 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <ListView
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:hint="Coordenadas X"
+       android:textSize="30dp"
+       android:layout_gravity="center_horizontal"
+       android:id="@+id/XID"
+       />
+
+       <EditText
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:textSize="30dp"
+           android:hint="Coordenadas Y"
+            android:id="@+id/YID"
+           android:layout_gravity="center_horizontal"
+       />
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:hint="Radio"
+    android:id="@+id/RadioID"
+    android:layout_gravity="center_horizontal"
+    />
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/ListaGeo">
+        android:hint="CLICK"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/botongeo"
+        android:onClick="BotonGeoPresionado"
+        />
 
 
 
-    </ListView>
+
 
 </LinearLayout>

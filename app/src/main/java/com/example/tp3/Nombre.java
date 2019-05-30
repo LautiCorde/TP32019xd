@@ -22,12 +22,12 @@ public class Nombre extends AppCompatActivity {
         setContentView(R.layout.activity_nombre);
         boton=findViewById(R.id.BotonNombre);
 
-
+        cat = findViewById(R.id.nombreabuscar);
 
 
         }
         public void BusquedaPresionado(View v){
-            cat = findViewById(R.id.nombreabuscar);
+
             Bundle paquete = new Bundle();
 
             paquete.putString("Nombre", cat.getText().toString());

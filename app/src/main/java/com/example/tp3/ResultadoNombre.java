@@ -25,8 +25,10 @@ public class ResultadoNombre extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.resultados_nombres);
         Bundle paquete = this.getIntent().getExtras();
-        nombre = paquete.getString("nombre");
+        nombre = paquete.getString("Nombre");
+        miAdaptador = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, listarta);
         miListadeResultados=findViewById(R.id.miListadeResultados);
+        new tareaAsincronica().execute();
 
     }
 
@@ -49,10 +51,12 @@ public class ResultadoNombre extends AppCompatActivity {
                             Log.d("LecturaJSON", nombreElementoActual);
                             if (nombreElementoActual.equals("nombre")) {
                                 String valorElementoActual = JSONleido.nextString();
-                                Log.d("LecturaJSON", "valor " + valorElementoActual);
+                                Log.d("LecturaJson","valor " + valorElementoActual);
+                                Log.d("LecturaJSON","SE ACERCA AL IF");
                                 if(valorElementoActual.contains(nombre)) {
+                                    Log.d("LecturaJSON","ENTRO AL IF");
                                     listarta.add(valorElementoActual);
-
+                                    Log.d("LecturaJSON", "Se agrego a la lista");
                                 }
                             } else {
                                 JSONleido.skipValue();
