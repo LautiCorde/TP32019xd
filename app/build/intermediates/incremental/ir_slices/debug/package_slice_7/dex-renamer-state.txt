@@ -1,4 +1,4 @@
-#Thu May 23 11:18:32 ART 2019
-base.0=C\:\\Users\\devandroid.ALMAGRO.000\\Desktop\\TP32019xd\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+#Thu May 30 12:03:24 ART 2019
+base.0=C\:\\Users\\devandroid.ALMAGRO.000\\Desktop\\pepe\\TP32019xd\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
 path.0=classes.dex
 renamed.0=classes.dex

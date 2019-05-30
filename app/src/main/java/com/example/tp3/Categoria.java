@@ -45,8 +45,8 @@ public class Categoria extends AppCompatActivity {
          @Override
          public void onItemClick(AdapterView<?> parent, View view, int PosicionSeleccionada, long id) {
              Bundle paquete = new Bundle();
-             paquete.putString("PosicionSeleccionada", ""+PosicionSeleccionada);
-             paquete.putString("ElementoSeleccionado", ""+listaCategorias.get(PosicionSeleccionada));
+             // paquete.putString("PosicionSeleccionada", ""+ PosicionSeleccionada);
+             paquete.putString("ElementoSeleccionado", ""+ listaCategorias.get(PosicionSeleccionada));
 
              Intent actividadBuscar = new Intent(Categoria.this, buscar.class);
              actividadBuscar.putExtras(paquete);
@@ -63,7 +63,7 @@ public class Categoria extends AppCompatActivity {
                 String nombreElementoActual = JSONleido.nextName();
                 if (nombreElementoActual.equals("cantidad_de_categorias")) {
                     int cantidadCategoria = JSONleido.nextInt();
-                    Log.d("LecturaJSON", "La cant de categorias es " + cantidadCategoria);
+                    //Log.d("LecturaJSON", "La cant de categorias es " + cantidadCategoria);
 
                 } else {
                     JSONleido.beginArray();
@@ -73,7 +73,7 @@ public class Categoria extends AppCompatActivity {
                             nombreElementoActual = JSONleido.nextName();
                             if (nombreElementoActual.equals("nombre")) {
                                 String valorElementoActual = JSONleido.nextString();
-                                Log.d("LecturaJSON", "valor" + valorElementoActual);
+                                //Log.d("LecturaJSON", "valor" + valorElementoActual);
                                 listaCategorias.add(valorElementoActual);
                             } else {
                                 JSONleido.skipValue();
@@ -103,7 +103,6 @@ public class Categoria extends AppCompatActivity {
                 InputStream cuerpoRespuesta=miConexion.getInputStream();
                 InputStreamReader lectorRespuesta= new InputStreamReader(cuerpoRespuesta, "UTF-8");
                     procesarJSONleido(lectorRespuesta);
-
 
             } else {
 

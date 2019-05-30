@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, Categoria.class));
     }
     void NombrePresionado(View nom){
+
         startActivity(new Intent(MainActivity.this, Nombre.class));
     }
     void GeoPresionado(View geo){

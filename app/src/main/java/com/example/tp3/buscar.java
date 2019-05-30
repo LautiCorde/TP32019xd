@@ -15,7 +15,7 @@ import java.net.URL;
 import java.util.ArrayList;
 
 public class buscar extends AppCompatActivity {
-    ArrayList listanombre;
+    ArrayList<String> listanombre = new ArrayList();
     ListView miListadeNombres;
     ArrayAdapter miAdaptador;
     String cat;
@@ -25,8 +25,10 @@ public class buscar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buscar);
         Bundle datosRecibidos = this.getIntent().getExtras();
-        Log.d("A", datosRecibidos.getString("PosicionSeleccionada"));
-        cat = datosRecibidos.getString("PosicionSeleccionada");
+        Log.d("LecturaJSON", datosRecibidos.getString("ElementoSeleccionado"));
+        cat = datosRecibidos.getString("ElementoSeleccionado");
+        miAdaptador = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, listanombre);
+        miListadeNombres = findViewById(R.id.miListadeNombres);
         new tareaAsincronica().execute();
     }
 
@@ -36,19 +38,17 @@ public class buscar extends AppCompatActivity {
             JSONleido.beginObject();
             while (JSONleido.hasNext()) {
                 String nombreElementoActual = JSONleido.nextName();
+                Log.d("LecturaJSON", nombreElementoActual);
                 if (nombreElementoActual.equals("instancias")) {
-                    int categoriaseleccionada = JSONleido.nextInt();
-                    Log.d("LecturaJSON", "La categorias es " + categoriaseleccionada);
-
-                } else {
                     JSONleido.beginArray();
                     while (JSONleido.hasNext()) {
                         JSONleido.beginObject();
                         while (JSONleido.hasNext()) {
                             nombreElementoActual = JSONleido.nextName();
+                            Log.d("LecturaJSON", nombreElementoActual);
                             if (nombreElementoActual.equals("nombre")) {
                                 String valorElementoActual = JSONleido.nextString();
-                                Log.d("LecturaJSON", "valor" + valorElementoActual);
+                                Log.d("LecturaJSON", "valor " + valorElementoActual);
                                 listanombre.add(valorElementoActual);
                             } else {
                                 JSONleido.skipValue();
@@ -57,6 +57,8 @@ public class buscar extends AppCompatActivity {
                         JSONleido.endObject();
                     }
                     JSONleido.endArray();
+                } else {
+                    JSONleido.skipValue();
                 }
             }
         } catch (Exception error) {

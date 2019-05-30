@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".buscar"></activity>
+        <activity android:name=".ResultadoNombre"></activity>
+        <activity android:name=".buscar" />
         <activity android:name=".Geo" />
         <activity android:name=".Nombre" />
         <activity android:name=".Categoria" />
