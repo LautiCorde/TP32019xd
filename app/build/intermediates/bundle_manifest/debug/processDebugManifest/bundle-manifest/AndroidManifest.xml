@@ -21,6 +21,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.tp3.ResultadoGeo" />
         <activity android:name="com.example.tp3.ResultadoNombre" />
         <activity android:name="com.example.tp3.buscar" />
         <activity android:name="com.example.tp3.Geo" />

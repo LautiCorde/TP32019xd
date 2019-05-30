@@ -1,8 +1,8 @@
 package com.example.tp3;
 
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.JsonReader;
 import android.util.Log;
 import android.widget.ArrayAdapter;
@@ -71,8 +71,8 @@ public class buscar extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... voids) {
             try {
-                URL miRuta = new URL("http://epok.buenosaires.gob.ar/buscar/?texto="+cat);
-                Log.d("Julian","El nombre de la cat es " + cat);
+                URL miRuta = new URL("http://epok.buenosaires.gob.ar/buscar/?texto=" + cat);
+                Log.d("Julian", "El nombre de la cat es " + cat);
                 HttpURLConnection miConexion = (HttpURLConnection) miRuta.openConnection();
                 Log.d("AccesoApi", "Me Conecto");
                 if (miConexion.getResponseCode() == 200) {

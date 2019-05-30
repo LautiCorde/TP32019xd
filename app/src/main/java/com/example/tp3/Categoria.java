@@ -2,13 +2,12 @@ package com.example.tp3;
 
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.JsonReader;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.AdapterViewAnimator;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -16,16 +15,27 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.security.Permission;
 import java.util.ArrayList;
 
 public class Categoria extends AppCompatActivity {
 
 
-
-    ArrayList listaCategorias;
+    ArrayList<String> listaCategorias;
     ListView miListaDeCategorias;
     ArrayAdapter miAdaptador;
+    AdapterView.OnItemClickListener escuhadorPorListView = new AdapterView.OnItemClickListener() {
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int PosicionSeleccionada, long id) {
+            Bundle paquete = new Bundle();
+            // paquete.putString("PosicionSeleccionada", ""+ PosicionSeleccionada);
+            paquete.putString("ElementoSeleccionado", "" + listaCategorias.get(PosicionSeleccionada));
+
+            Intent actividadBuscar = new Intent(Categoria.this, buscar.class);
+            actividadBuscar.putExtras(paquete);
+
+            startActivity(actividadBuscar);
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,20 +50,6 @@ public class Categoria extends AppCompatActivity {
         miTarea.execute();
         Log.d("AccesoApi", "Termine la ejecucion");
     }
-
-     AdapterView.OnItemClickListener escuhadorPorListView=new AdapterView.OnItemClickListener() {
-         @Override
-         public void onItemClick(AdapterView<?> parent, View view, int PosicionSeleccionada, long id) {
-             Bundle paquete = new Bundle();
-             // paquete.putString("PosicionSeleccionada", ""+ PosicionSeleccionada);
-             paquete.putString("ElementoSeleccionado", ""+ listaCategorias.get(PosicionSeleccionada));
-
-             Intent actividadBuscar = new Intent(Categoria.this, buscar.class);
-             actividadBuscar.putExtras(paquete);
-
-             startActivity(actividadBuscar);
-         }
-     };
 
     public void procesarJSONleido(InputStreamReader streamLeido) {
         JsonReader JSONleido = new JsonReader(streamLeido);
@@ -83,44 +79,44 @@ public class Categoria extends AppCompatActivity {
                     }
                     JSONleido.endArray();
                 }
-            } } catch(Exception error){
-                Log.d("LecturaJSON", "hubo un error" + error.getMessage()); } }
+            }
+        } catch (Exception error) {
+            Log.d("LecturaJSON", "hubo un error" + error.getMessage());
+        }
+    }
 
 
+    class tareaAsincronica extends AsyncTask<Void, Void, Void> {
+        @Override
+        protected Void doInBackground(Void... voids) {
+            try {
+                URL miRuta = new URL("http://epok.buenosaires.gob.ar/getCategorias");
+                HttpURLConnection miConexion = (HttpURLConnection) miRuta.openConnection();
+                Log.d("AccesoApi", "Me Conecto");
+                if (miConexion.getResponseCode() == 200) {
 
-
-
-    class tareaAsincronica extends AsyncTask<Void,Void,Void> {
-   @Override
-        protected Void doInBackground(Void...voids){
-        try{
-            URL miRuta=new URL("http://epok.buenosaires.gob.ar/getCategorias");
-            HttpURLConnection miConexion=(HttpURLConnection) miRuta.openConnection();
-            Log.d("AccesoApi","Me Conecto");
-            if (miConexion.getResponseCode()==200){
-
-                Log.d("AccesoApi","Conexion Ok");
-                InputStream cuerpoRespuesta=miConexion.getInputStream();
-                InputStreamReader lectorRespuesta= new InputStreamReader(cuerpoRespuesta, "UTF-8");
+                    Log.d("AccesoApi", "Conexion Ok");
+                    InputStream cuerpoRespuesta = miConexion.getInputStream();
+                    InputStreamReader lectorRespuesta = new InputStreamReader(cuerpoRespuesta, "UTF-8");
                     procesarJSONleido(lectorRespuesta);
 
-            } else {
+                } else {
 
-                Log.d("AccesoApi","error");
+                    Log.d("AccesoApi", "error");
+                }
+                miConexion.disconnect();
+
+            } catch (Exception Error) {
+
+                Log.d("AccesoApi", "Hubo un error al conectarse " + Error.getMessage());
+
             }
-            miConexion.disconnect();
 
-        } catch(Exception Error){
-
-            Log.d("AccesoApi","Hubo un error al conectarse "+Error.getMessage());
-
+            return null;
         }
 
-return null;
-   }
-
         @Override
-        protected void onPostExecute(Void aVoid){
+        protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
             miListaDeCategorias.setAdapter(miAdaptador);
         }

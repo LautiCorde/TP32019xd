@@ -1,8 +1,8 @@
 package com.example.tp3;
 
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.JsonReader;
 import android.util.Log;
 import android.widget.ArrayAdapter;
@@ -27,12 +27,10 @@ public class ResultadoNombre extends AppCompatActivity {
         Bundle paquete = this.getIntent().getExtras();
         nombre = paquete.getString("Nombre");
         miAdaptador = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, listarta);
-        miListadeResultados=findViewById(R.id.miListadeResultados);
+        miListadeResultados = findViewById(R.id.miListadeResultados);
         new tareaAsincronica().execute();
 
     }
-
-
 
 
     public void procesarJSONleido(InputStreamReader streamLeido) {
@@ -51,10 +49,10 @@ public class ResultadoNombre extends AppCompatActivity {
                             Log.d("LecturaJSON", nombreElementoActual);
                             if (nombreElementoActual.equals("nombre")) {
                                 String valorElementoActual = JSONleido.nextString();
-                                Log.d("LecturaJson","valor " + valorElementoActual);
-                                Log.d("LecturaJSON","SE ACERCA AL IF");
-                                if(valorElementoActual.contains(nombre)) {
-                                    Log.d("LecturaJSON","ENTRO AL IF");
+                                Log.d("LecturaJson", "valor " + valorElementoActual);
+                                Log.d("LecturaJSON", "SE ACERCA AL IF");
+                                if (valorElementoActual.contains(nombre)) {
+                                    Log.d("LecturaJSON", "ENTRO AL IF");
                                     listarta.add(valorElementoActual);
                                     Log.d("LecturaJSON", "Se agrego a la lista");
                                 }

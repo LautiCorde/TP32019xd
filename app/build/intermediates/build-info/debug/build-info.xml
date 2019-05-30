@@ -7,78 +7,78 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.3.1"
-    timestamp="1559236208658"
-    token="7108701188182379029"
+    timestamp="1559247938273"
+    token="267942887444511054"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="240" />
+        duration="563" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="23" />
+        duration="114" />
     <task
         name="verifier"
-        duration="4" />
+        duration="14" />
 
     <artifact
-        location="C:\Users\devandroid.ALMAGRO.000\Desktop\pepe\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="C:\Users\devandroid.ALMAGRO.000\Desktop\Nueva carpeta\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1559234403002"
+        timestamp="1559245165485"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\devandroid.ALMAGRO.000\Desktop\pepe\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\Users\devandroid.ALMAGRO.000\Desktop\Nueva carpeta\TP32019xd\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\devandroid.ALMAGRO.000\Desktop\pepe\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\devandroid.ALMAGRO.000\Desktop\Nueva carpeta\TP32019xd\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\devandroid.ALMAGRO.000\Desktop\pepe\TP32019xd\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="C:\Users\devandroid.ALMAGRO.000\Desktop\Nueva carpeta\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\devandroid.ALMAGRO.000\Desktop\pepe\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\devandroid.ALMAGRO.000\Desktop\Nueva carpeta\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\devandroid.ALMAGRO.000\Desktop\pepe\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\devandroid.ALMAGRO.000\Desktop\Nueva carpeta\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\devandroid.ALMAGRO.000\Desktop\pepe\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\devandroid.ALMAGRO.000\Desktop\Nueva carpeta\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\devandroid.ALMAGRO.000\Desktop\pepe\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\devandroid.ALMAGRO.000\Desktop\Nueva carpeta\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\devandroid.ALMAGRO.000\Desktop\pepe\TP32019xd\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            location="C:\Users\devandroid.ALMAGRO.000\Desktop\Nueva carpeta\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\devandroid.ALMAGRO.000\Desktop\pepe\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\devandroid.ALMAGRO.000\Desktop\Nueva carpeta\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\devandroid.ALMAGRO.000\Desktop\pepe\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="C:\Users\devandroid.ALMAGRO.000\Desktop\Nueva carpeta\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\devandroid.ALMAGRO.000\Desktop\pepe\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\devandroid.ALMAGRO.000\Desktop\Nueva carpeta\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\devandroid.ALMAGRO.000\Desktop\pepe\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\Users\devandroid.ALMAGRO.000\Desktop\Nueva carpeta\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\devandroid.ALMAGRO.000\Desktop\pepe\TP32019xd\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            location="C:\Users\devandroid.ALMAGRO.000\Desktop\Nueva carpeta\TP32019xd\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1559236208658"
+        timestamp="1559247938273"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\devandroid.ALMAGRO.000\Desktop\pepe\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\Users\devandroid.ALMAGRO.000\Desktop\Nueva carpeta\TP32019xd\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
     </build>
 
